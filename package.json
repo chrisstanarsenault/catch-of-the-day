@@ -28,6 +28,9 @@
     "now-build": "npm run build && mv build dist",
     "styles:watch": "npm run styles -- -w"
   },
+  "engines": {
+    "node": "10.14.2"
+  },
   "browserslist": [
     ">0.2%",
     "not ie <= 11",
